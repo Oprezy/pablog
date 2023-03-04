@@ -79,6 +79,7 @@ def load_user(user_id):
 @app.route('/')
 def get_all_posts():
     db.create_all()
+    #print("hello")
     # new_user = User(email = 'prezzy1@blog.com', name = 'Prezzy1', password = 'jhgfds')        
     # new_post = BlogPost(author=current_user, title='Writer', subtitle='Founder', date='28th', body='Again, Obi will be president', img_url='https://cdn.vanguardngr.com/wp-content/uploads/2022/10/Peter-Obi-1.webp')
     # db.session.add(new_user)
