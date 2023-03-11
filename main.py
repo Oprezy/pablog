@@ -83,7 +83,7 @@ def get_all_posts():
     # new_user = User(email = 'prezzy1@blog.com', name = 'Prezzy1', password = 'jhgfds')        
     # new_post = BlogPost(author=current_user, title='Writer', subtitle='Founder', date='28th', body='Again, Obi will be president', img_url='https://cdn.vanguardngr.com/wp-content/uploads/2022/10/Peter-Obi-1.webp')
     # db.session.add(new_user)
-    # db.session.add(new_post)
+    # db.session.add(new_post) error ooooo
     # db.session.commit()
     posts = BlogPost.query.all()
     return render_template("index.html", all_posts=posts)
